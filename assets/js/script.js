@@ -1,8 +1,36 @@
 $(document).ready(function() {
 
-	imgs = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifthteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty-one', 'twenty-two'];
+	var links = ['https://www.inverse.com/article/14957-drake-equation-revision-hugely-ups-odds-intelligent-extraterrestrial-life-exists',
+					'http://www.space.com/35996-fast-radio-bursts-powering-alien-spacecraft.html',
+					'https://en.wikipedia.org/wiki/Space_colonization',
+					'https://en.wikipedia.org/wiki/Fermi_paradox',
+					'http://www.npr.org/sections/thetwo-way/2017/04/13/523756092/signs-of-hospitality-to-life-found-on-saturns-moon-enceladus',
+					'http://www.sciencealert.com/it-s-official-nasa-s-peer-reviewed-em-drive-paper-has-finally-been-published',
+					'https://www.youtube.com/watch?v=0qo78R_yYFA'];
 
+	function randomizeLink() {
+		var link = document.getElementById('random-link');
 
+		var index = Math.floor(Math.random() * links.length);
+		var new_link = links[index];
+
+		link.setAttribute('href', new_link);
+	}
+
+	$('.blog-small-img').hover(function() {
+		// $(this).find('.blog-img-overlay').animate({'height': '50px'}, 500);
+	});
+
+	$('.like').click(function() {
+		var likes = $(this).parent().find('.like-counter').text();
+		var likes_int = parseInt(likes) + 1;
+		// var likes_str = parseString(likes_int);
+		$(this).parent().find('.like-counter').text(likes_int);
+		console.log(likes_int);
+	});
+
+	var imgs = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifthteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty-one', 'twenty-two'];
+	
 	window.onload = function() {
 
 		var index = Math.floor(Math.random() * imgs.length);
@@ -15,6 +43,8 @@ $(document).ready(function() {
 
 		$('#bg-2').css('opacity', 0);
 		$('#bg-2').animate({'opacity': 1}, 1500);
+
+		randomizeLink();
 	}
 
 	var one_active = true;
@@ -69,6 +99,12 @@ $(document).ready(function() {
 	}
 
 	setInterval(function(){
-	   	bg_change()
+	   	bg_change();
 	}, 4000);
+
+
+
+
+
+
 });
