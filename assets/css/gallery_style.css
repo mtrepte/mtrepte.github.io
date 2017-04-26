@@ -1,0 +1,77 @@
+.one {
+	background: url("imgs/gallery/gallery_10.jpg");
+}
+
+.two {
+	background: url("imgs/gallery/gallery_2.jpg");
+}
+
+.three {
+	background: url("imgs/gallery/gallery_3.jpg");
+}
+
+.four {
+	background: url("imgs/gallery/gallery_4.jpg");
+}
+
+.five {
+	background: url("imgs/gallery/gallery_5.jpg");
+}
+
+.six {
+	background: url("imgs/gallery/gallery_6.jpg");
+}
+
+.seven {
+	background: url("imgs/gallery/gallery_7.jpg");
+}
+
+
+.eight {
+	background: url("imgs/gallery/gallery_8.jpg");
+}
+
+.nine {
+	background: url("imgs/gallery/gallery_9.jpg");
+}
+
+
+.ten {
+	background: url("imgs/gallery/gallery_1.jpg");
+}
+
+.eleven {
+	background: url("imgs/gallery/gallery_11.jpg");
+}
+
+.twelve {
+	background: url("imgs/gallery/gallery_12.jpg");
+}
+
+.thirteen {
+	background: url("imgs/gallery/gallery_13.jpg");
+}
+
+.fourteen {
+	background: url("imgs/gallery/gallery_14.jpg");
+}
+
+.fifthteen {
+	background: url("imgs/gallery/gallery_15.jpg");
+}
+
+.sixteen {
+	background: url("imgs/gallery/gallery_16.jpg");
+}
+
+.seventeen {
+	background: url("imgs/gallery/gallery_17.jpg");
+}
+
+.gallery-img {
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%;
+}
