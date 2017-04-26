@@ -123,20 +123,23 @@ body {
 }
 
 #bottom {
-	position: fixed;
 	margin: 0px;
 	width: 100%;
 	height: 50px;
 }
 
 #home {
-	color: white;
-	background-color: black;
 	font-size: 36px;
 	text-align: center;
 }
 
-#home:hover {
+#home a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+
+#home:hover a {
 	background-color: white;
 	color: black;
 	cursor: pointer;
@@ -159,11 +162,17 @@ body {
     width:33.334%;
 }
 
-.page:hover {
+.page a {
+	color: black;
+ 	text-decoration: none;
+}
+
+.page:hover a {
 	background-color: black;
 	color: white;
 	cursor: pointer;
 }
+
 
 #bg-1, #bg-2 {
 	background-repeat: no-repeat;
@@ -181,11 +190,11 @@ body {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	margin-top: -70px;
+	margin-top: -130px;
 }
 
 #title {
-	margin-top: 75px;
+	margin-top: 100px;
 	position: relative;
 	color: white;
 	font-size: 50px;
@@ -199,7 +208,7 @@ body {
 	margin-top: 20px;
 	position: relative;
 	color: white;
-	font-size: 12px;
+	font-size: 16px;
 	text-align: center;
 	z-index: 10;
 }
@@ -240,7 +249,12 @@ body {
 	display: inline-block;
 }
 
-.menu-item:hover {
+.menu-item a {
+	color: black;
+ 	text-decoration: none;
+}
+
+.menu-item:hover a {
 	color: white;
 	cursor: crosshair;
 }
@@ -252,60 +266,6 @@ body {
 	height: 35px;
 	opacity: .8;
  }
-
-/*.one {
-	background-image: url("imgs/1.jpg");
-	z-index: 1;
-}
-
-.two {
-	background-image: url("imgs/2.jpg");	
-	z-index: 2;
-}
-
-.three {
-	background-image: url("imgs/3.jpg");	
-}
-
-.four {
-	background-image: url("imgs/4.jpg");	
-}
-
-.five {
-	background-image: url("imgs/5.jpg");	
-}
-
-.six {
-	background-image: url("imgs/6.jpg");	
-}
-
-.six {
-	background-image: url("imgs/6.jpg");	
-}
-
-.seven {
-	background-image: url("imgs/7.jpg");	
-}
-
-.eight {
-	background-image: url("imgs/8.jpg");	
-}
-
-.nine {
-	background-image: url("imgs/9.jpg");	
-}
-
-.ten {
-	background-image: url("imgs/10.jpg");	
-}
-
-.eleven {
-	background-image: url("imgs/11.jpg");
-}
-
-.twelve {
-	background-image: url("imgs/12.jpg");
-}*/
 
 .one {
 	background-image: url("imgs/updated/charon_1.jpg")

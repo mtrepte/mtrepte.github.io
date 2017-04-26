@@ -18,8 +18,6 @@ $(document).ready(function() {
 	}
 
 	var one_active = true;
-	// imgs = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
-	// imgs = ['seventeen', 'eighteen', 'nineteen'];
 
 	function bg_change() {       
 
