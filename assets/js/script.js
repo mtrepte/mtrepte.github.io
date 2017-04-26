@@ -100,7 +100,7 @@ $(document).ready(function() {
 
 	setInterval(function(){
 	   	bg_change();
-	}, 4000);
+	}, 5000);
 
 
 

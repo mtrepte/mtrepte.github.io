@@ -6,6 +6,23 @@ body {
 	font-family: "Roboto Mono";
 }
 
+.ur {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	z-index: 100;
+}
+
+.bl {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    z-index: 100;
+}
+
 .blog {
 	position: relative;
 	width: 100%;
@@ -13,7 +30,7 @@ body {
 	display: block;
 /*	background-color: red;*/
 	padding: 0;
-	margin-bottom: 35px;
+	margin-bottom: 50px;
 }
 
 .blog-header {
@@ -40,14 +57,14 @@ body {
 	float: left;
 	width: 40%;
 	height: 100%;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
 .blog-right-col {
 	float: right;
 	width: 60%;
 	height: 100%;
-	background-color: pink;
+	/*background-color: pink;*/
 }
 
 .blog-img-overlay-container-1 {
@@ -137,11 +154,10 @@ body {
 }
 
 .like {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background-size: 80% 80%;
 	background: url("imgs/like.png");
+	position: absolute;
+	width: 40px;
+	height: 40px;
 	right: 0px;
 	top: 50px;
 	z-index: 100;
