@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+	function music() { 
+		document.all.sound.src = "DreamingOfTheCrash.mp3"
+	} 
+
 	var links = ['https://www.inverse.com/article/14957-drake-equation-revision-hugely-ups-odds-intelligent-extraterrestrial-life-exists',
 					'http://www.space.com/35996-fast-radio-bursts-powering-alien-spacecraft.html',
 					'https://en.wikipedia.org/wiki/Space_colonization',
@@ -19,6 +23,11 @@ $(document).ready(function() {
 
 	$('.blog-small-img').hover(function() {
 		// $(this).find('.blog-img-overlay').animate({'height': '50px'}, 500);
+	});
+
+	$('#mute').click(function() {
+    	$("#audio").remove()
+   		$('body').append('<embed src="DreamingOfTheCrash.mp3" autostart="true" loop="false" hidden="true" id="audio">');
 	});
 
 	$('.like').click(function() {
@@ -45,6 +54,8 @@ $(document).ready(function() {
 		$('#bg-2').animate({'opacity': 1}, 1500);
 
 		randomizeLink();
+
+		music();
 	}
 
 	var one_active = true;

@@ -320,6 +320,35 @@ body {
 	z-index: 10;
 }
 
+#audio {
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+}
+
+#mute {
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	margin-top: -20px;
+	filter: invert(100%);
+	width: 30px;
+	top: 30px;
+	margin: 10px;
+
+	filter: invert(100%);
+	-moz-transition: all 0.3s;
+ 	-webkit-transition: all 0.3s;
+  	transition: all 0.3s;
+}
+
+#mute:hover {
+	cursor: pointer;
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
 #menu-container {
 	position: relative;
 	top: 150px;
