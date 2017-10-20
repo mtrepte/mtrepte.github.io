@@ -80,7 +80,7 @@ body {
 }
 
 .twenty {
-	background-image: url("imgs/home/compressed/sun_1.jpg");
+	background-image: url("imgs/home/compressed/saturn_4.jpg");
 }
 
 .twenty-one {
@@ -89,4 +89,8 @@ body {
 
 .twenty-two {
 	background-image: url("imgs/home/compressed/venus_1.jpg");
+}
+
+.twenty-three {
+	background-image: url("imgs/home/compressed/sun_1.jpg");
 }

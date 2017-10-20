@@ -38,7 +38,7 @@ $(document).ready(function() {
 		console.log(likes_int);
 	});
 
-	var imgs = ['three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty-one', 'twenty-two'];
+	var imgs = ['three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty-one', 'twenty-two', 'twenty-three'];
 	
 	window.onload = function() {
 
