@@ -38,12 +38,14 @@ $(document).ready(function() {
 		console.log(likes_int);
 	});
 
-	var imgs = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'thirteen', 'fourteen', 'fifthteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty-one', 'twenty-two'];
+	var imgs = ['three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'twenty-one', 'twenty-two'];
 	
 	window.onload = function() {
 
 		var index = Math.floor(Math.random() * imgs.length);
-		var bg = imgs[index];	
+		var bg = imgs[index];
+
+
 
 		$('#bg-2').addClass(bg);
 		$('#bg-2').css('z-index', 1);

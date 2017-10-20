@@ -3,90 +3,90 @@ body {
 }
 
 
-.one {
-	background-image: url("imgs/home/charon_1.jpg")
+/*.one {
+	background-image: url("imgs/home/compressed/charon_1.jpg")
 }
 
 .two {
-	background-image: url("imgs/home/charon_2.jpg");
+	background-image: url("imgs/home/compressed/charon_2.jpg");
 }
-
+*/
 .three {
-	background-image: url("imgs/home/earth_1.jpg");
+	background-image: url("imgs/home/compressed/earth_1.jpg");
 }
 
 .four {
-	background-image: url("imgs/home/earth_2.jpg");
+	background-image: url("imgs/home/compressed/earth_2.jpg");
 }
 
 .five {
-	background-image: url("imgs/home/earth_3.jpg");
+	background-image: url("imgs/home/compressed/earth_3.jpg");
 }
 
 .six {
-	background-image: url("imgs/home/enceladus_1.jpg");
+	background-image: url("imgs/home/compressed/enceladus_1.jpg");
 }
 
 .seven {
-	background-image: url("imgs/home/jupiter_2.jpg");
+	background-image: url("imgs/home/compressed/jupiter_2.jpg");
 }
 
 .eight {
-	background-image: url("imgs/home/mars_1.jpg");
+	background-image: url("imgs/home/compressed/mars_1.jpg");
 }
 
 .nine {
-	background-image: url("imgs/home/mars_2.jpg");
+	background-image: url("imgs/home/compressed/mars_2.jpg");
 }
 
-.ten {
-	background-image: url("imgs/home/mercury_1.jpg");
+/*.ten {
+	background-image: url("imgs/home/compressed/mercury_1.jpg");
 }
 
 .eleven {
-	background-image: url("imgs/home/mercury_2.jpg");
-}
+	background-image: url("imgs/home/compressed/mercury_2.jpg");
+}*/
 
-.twelve {
-	background-image: url("imgs/home/moon_1.jpg");
+/*.twelve {
+	background-image: url("imgs/home/compressed/moon_1.jpg");
 }
-
+*/
 .thirteen {
-	background-image: url("imgs/home/moon_2.jpg");
+	background-image: url("imgs/home/compressed/moon_2.jpg");
 }
 
 .fourteen {
-	background-image: url("imgs/home/neptune_1.jpg");
+	background-image: url("imgs/home/compressed/neptune_1.jpg");
 }
 
-.fifthteen {
-	background-image: url("imgs/home/pluto_1.jpg");
+.fifteen {
+	background-image: url("imgs/home/compressed/pluto_1.jpg");
 }
 
 .sixteen {
-	background-image: url("imgs/home/pluto_2.jpg");
+	background-image: url("imgs/home/compressed/pluto_2.jpg");
 }
 
 .seventeen {
-	background-image: url("imgs/home/saturn_1.jpg");
+	background-image: url("imgs/home/compressed/saturn_1.jpg");
 }
 
 .eighteen {
-	background-image: url("imgs/home/saturn_2.jpg");
+	background-image: url("imgs/home/compressed/saturn_2.jpg");
 }
 
 .nineteen {
-	background-image: url("imgs/home/saturn_3.jpg");
+	background-image: url("imgs/home/compressed/saturn_3.jpg");
 }
 
 .twenty {
-	background-image: url("imgs/home/sun_1.jpg");
+	background-image: url("imgs/home/compressed/sun_1.jpg");
 }
 
 .twenty-one {
-	background-image: url("imgs/home/uranus_1.jpg");
+	background-image: url("imgs/home/compressed/uranus_1.jpg");
 }
 
 .twenty-two {
-	background-image: url("imgs/home/venus_1.jpg");
+	background-image: url("imgs/home/compressed/venus_1.jpg");
 }
